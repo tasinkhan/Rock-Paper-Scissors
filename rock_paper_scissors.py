@@ -59,8 +59,8 @@ while True:
         else:
             print("Both of You and Computer choose Scissors. Match tied")
     
-    print(f"User wins: {user_wins}")
-    print(f"Computer wins: {computer_wins}")
+    print(f"User points: {user_wins}")
+    print(f"Computer points: {computer_wins}")
     print("")
 
     user_choices = input("Do you want to play again: y/n: ")
